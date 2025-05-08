@@ -1,14 +1,15 @@
-.\demo1\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
-.\demo1\stream_buffer.o: D:\Keil_v5\ARM\ARMCC\include\stdint.h
-.\demo1\stream_buffer.o: D:\Keil_v5\ARM\ARMCC\include\string.h
-.\demo1\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-.\demo1\stream_buffer.o: D:\Keil_v5\ARM\ARMCC\include\stddef.h
-.\demo1\stream_buffer.o: ../Core/Inc/FreeRTOSConfig.h
-.\demo1\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
-.\demo1\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
-.\demo1\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
-.\demo1\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
-.\demo1\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
-.\demo1\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
-.\demo1\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
-.\demo1\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h
+./demo1/stream_buffer.o: \
+  ..\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  ..\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  ..\Core\Inc\FreeRTOSConfig.h \
+  ..\Middlewares\Third_Party\FreeRTOS\Source\include\projdefs.h \
+  ..\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h \
+  ..\Middlewares\Third_Party\FreeRTOS\Source\include\deprecated_definitions.h \
+  ..\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\portmacro.h \
+  ..\Middlewares\Third_Party\FreeRTOS\Source\include\mpu_wrappers.h \
+  ..\Middlewares\Third_Party\FreeRTOS\Source\include\task.h \
+  ..\Middlewares\Third_Party\FreeRTOS\Source\include\list.h \
+  ..\Middlewares\Third_Party\FreeRTOS\Source\include\stream_buffer.h

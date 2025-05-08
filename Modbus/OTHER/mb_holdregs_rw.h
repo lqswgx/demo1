@@ -8,7 +8,7 @@
  */
 
 #ifndef __MB_HOLDREGS_RW_H_
-#define __RTU_HOLDREGS_RW_H_
+#define __MB_HOLDREGS_RW_H_
 
 
 

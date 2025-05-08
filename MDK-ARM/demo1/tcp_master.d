@@ -1,2 +1,2 @@
-.\demo1\tcp_master.o: ..\Modbus\TCP\tcp_master.c
-.\demo1\tcp_master.o: ..\Modbus\TCP\tcp_master.h
+./demo1/tcp_master.o: ..\Modbus\TCP\tcp_master.c \
+  ..\Modbus\TCP\tcp_master.h

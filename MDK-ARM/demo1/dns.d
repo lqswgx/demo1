@@ -1,89 +1,82 @@
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\core\dns.c
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/opt.h
-.\demo1\dns.o: ..\LWIP\Target\lwipopts.h
-.\demo1\dns.o: ../Core/Inc/main.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
-.\demo1\dns.o: ../Core/Inc/stm32f4xx_hal_conf.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
-.\demo1\dns.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
-.\demo1\dns.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h
-.\demo1\dns.o: ../Drivers/CMSIS/Include/core_cm4.h
-.\demo1\dns.o: D:\Keil_v5\ARM\ARMCC\include\stdint.h
-.\demo1\dns.o: ../Drivers/CMSIS/Include/cmsis_version.h
-.\demo1\dns.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
-.\demo1\dns.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
-.\demo1\dns.o: ../Drivers/CMSIS/Include/mpu_armv7.h
-.\demo1\dns.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-.\demo1\dns.o: D:\Keil_v5\ARM\ARMCC\include\stddef.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_eth.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sdram.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fmc.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_ltdc.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_ltdc_ex.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sd.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
-.\demo1\dns.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-.\demo1\dns.o: ../Core/Inc/delay.h
-.\demo1\dns.o: ../Core/Inc/main.h
-.\demo1\dns.o: ..\LogConfig\LogConfig.h
-.\demo1\dns.o: D:\Keil_v5\ARM\ARMCC\include\stdio.h
-.\demo1\dns.o: D:\Keil_v5\ARM\ARMCC\include\string.h
-.\demo1\dns.o: D:\Keil_v5\ARM\ARMCC\include\ctype.h
-.\demo1\dns.o: D:\Keil_v5\ARM\ARMCC\include\stdlib.h
-.\demo1\dns.o: D:\Keil_v5\ARM\ARMCC\include\stdarg.h
-.\demo1\dns.o: D:\Keil_v5\ARM\ARMCC\include\stdbool.h
-.\demo1\dns.o: D:\Keil_v5\ARM\ARMCC\include\time.h
-.\demo1\dns.o: D:\Keil_v5\ARM\ARMCC\include\math.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/debug.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/arch.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\system\arch/cc.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\system\arch/cpu.h
-.\demo1\dns.o: D:\Keil_v5\ARM\ARMCC\include\inttypes.h
-.\demo1\dns.o: D:\Keil_v5\ARM\ARMCC\include\limits.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/opt.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/def.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/udp.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/pbuf.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/err.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/netif.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/ip_addr.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/ip4_addr.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/ip6_addr.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/stats.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/mem.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/memp.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/priv/memp_std.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/priv/memp_std.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/priv/memp_priv.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/priv/mem_priv.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/stats.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/ip.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/ip4.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/prot/ip4.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/ip6.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/prot/ip.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/prot/udp.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/dns.h
-.\demo1\dns.o: ..\Middlewares\Third_Party\LwIP\src\include\lwip/prot/dns.h
+./demo1/dns.o: ..\Middlewares\Third_Party\LwIP\src\core\dns.c \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\opt.h \
+  ..\LWIP\Target\lwipopts.h ..\Core\Inc\main.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h \
+  ..\Core\Inc\stm32f4xx_hal_conf.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h \
+  ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h \
+  ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h \
+  ..\Drivers\CMSIS\Include\core_cm4.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  ..\Drivers\CMSIS\Include\cmsis_version.h \
+  ..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  ..\Drivers\CMSIS\Include\cmsis_armclang.h \
+  ..\Drivers\CMSIS\Include\mpu_armv7.h \
+  ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_can.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_eth.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_sdram.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_fmc.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_iwdg.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_ltdc.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_ltdc_ex.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rtc.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rtc_ex.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_sd.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_sdmmc.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h \
+  ..\Core\Inc\delay.h ..\LogConfig\LogConfig.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\ctype.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\time.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\debug.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\arch.h \
+  ..\Middlewares\Third_Party\LwIP\system\arch\cc.h \
+  ..\Middlewares\Third_Party\LwIP\system\arch\cpu.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\limits.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\def.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\udp.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\pbuf.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\err.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\netif.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\ip_addr.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\ip4_addr.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\ip6_addr.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\stats.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\mem.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\memp.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\priv\memp_std.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\priv\memp_priv.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\priv\mem_priv.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\ip.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\ip4.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\prot\ip4.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\ip6.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\prot\ip.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\prot\udp.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\dns.h \
+  ..\Middlewares\Third_Party\LwIP\src\include\lwip\prot\dns.h

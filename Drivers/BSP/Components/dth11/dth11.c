@@ -161,7 +161,7 @@ static uint8_t DHT11_ReadByte(void)
         
         /* 测量高电平持续时间 */
         uint32_t start = DWT_GetTicks();
-        while(DHT11_PIN_READ() == GPIO_PIN_SET);
+        while(DHT11_PIN_READ() == GPIO_PIN_SET)
         {
             if(timeout-- == 0)
             {

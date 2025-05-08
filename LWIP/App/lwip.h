@@ -50,6 +50,8 @@
 #endif /* WITH_RTOS */
 
 /* USER CODE BEGIN 0 */
+#define __CC_ARM
+
 /* Define the  REMOTE IP ADDRESS AND PORT  */
 #define REMOTE_IP_ADDR1 192
 #define REMOTE_IP_ADDR2 168
