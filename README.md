@@ -1,6 +1,6 @@
 ##作者：lqs
 
-##日期：2025-05-08
+##日期：2025-05-09
 
 1.简介
     这是一个基于正点原子Apollo开发板STM32F429IGT6的demo，采用STM32CUBEMX工具配置工程，使用了FreeRTOS，包括各种接口驱动、LWIP协议栈、FATFS文件系统、Modbus自定义协议栈等。
